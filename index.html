@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kbs</title>
+    <!-- reset css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.2/reset.min.css">
+    <!-- meterial symbol -->
+    <!-- gsap -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+        integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <!-- connect js && css -->
+    <link rel="stylesheet" href="./css/main.css">
+    <script defer src="./js/main.js"></script>
+</head>
+
+<body>
+    <!-- HEAD -->
+    <div id="head_layout">
+        <div class="inner">
+            <a href="" class="logo">
+                <img src="./img/logo_sports.svg" alt="">
+            </a>
+            <div class="util_menu">
+                <ul>
+                    <li>
+                        <span class="material-symbols-outlined">
+                            shopping_cart
+                        </span>
+                    </li>
+                    <li>
+                        <span class="material-symbols-outlined">
+                            person
+                        </span>
+                    </li>
+                    <li>
+                        <span class="material-symbols-outlined">
+                            search
+                        </span>
+                    </li>
+                    <a href="" class="btn">로그인</a>
+                </ul>
+            </div>
+            <div class="main_menu">
+                <ul>
+                    <li>스포츠월드소개</li>
+                    <li>KBS스포츠월드</li>
+                    <li>목포스포츠월드</li>
+                    <li>알림마당</li>
+                </ul>
+            </div>
+        </div>
+        <div class="sub_menu unvisible">
+            <div class="inner">
+                <p><Strong class="blue">KBS 스포츠월드</Strong>와<br>
+                    함께 하는 즐거운<br>
+                    스포츠 타임</p>
+                <ul class="page">
+                    <li>스포츠월드소개</li>
+                    <li>강습종목</li>
+                    <li>연혁</li>
+                    <li>사업장</li>
+                </ul>
+                <ul class="page">
+                    <li>수강안내</li>
+                    <li>공지사항</li>
+                    <li>수강신청</li>
+                    <li>특별강습신청</li>
+                    <li>종목안내</li>
+                    <li>레인임대신청</li>
+                    <li>오시는길</li>
+                </ul>
+                <ul class="page">
+                    <li>수강안내</li>
+                    <li>종목안내</li>
+                    <li>공지사항</li>
+                    <li>오시는길</li>
+                </ul>
+                <ul class="page">
+                    <li>알림마당</li>
+                    <li>FAQ</li>
+                </ul>
+                <ul class="page">
+                    <li class="black">마이페이지</li>
+                    <li>내정보 수정</li>
+                    <li>신청내역<br>
+                        (수강신청/사물함등)</li>
+                    <li>장바구니</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- BODY -->
+    <div id="body_layout">
+        <!-- TOP -->
+        <div class="top">
+            <div class="inner">
+                <h2>KBS 스포츠월드 수영장에서<br>
+                    무더위를 싹 날리세요! KB</h2>
+                <p>여름 6~9월 일일 자유수영 안내</p>
+                <a href="" class="btn2">자세히보기</a>
+                <div class="play">
+                    <span class="material-symbols-outlined">
+                        pause
+                    </span>
+                    <span class="material-symbols-outlined">
+                        play_arrow
+                    </span>
+                </div>
+            </div>
+        </div>
+        <!-- CONTENT -->
+        <div class="content">
+            <div class="inner">
+                <div class="content_menu">
+                    <ul>
+                        <li class="ul_menu open">일일수영 티켓구매</li>
+                        <li class="ul_menu">수강신청</li>
+                        <li class="ul_menu">특별강습신청</li>
+                    </ul>
+                </div>
+                <div class="ticket open">
+                    <div class="buy_ticket">
+                        <p>일일수영 티켓구매</p>
+                    </div>
+                    <label for="checkbox">
+                        <input type="button" name="age" value="일일수영 성인">
+                        <input type="button" name="age" value="일일수영 학생">
+                        <input type="button" name="age" value="일일수영 유아">
+                    </label>
+                    <div class="btn">구매</div>
+                </div>
+                <div class="ticket">
+                    <div class="buy_ticket">
+                        <p>수강신청</p>
+                    </div>
+                    <label for="checkbox">
+                        <input type="button" name="sport" value="종목선택">
+                        <input type="button" name="time" value="전체">
+                    </label>
+                    <div class="btn">구매</div>
+                </div>
+                <div class="ticket">
+                    <div class="buy_ticket">
+                        <p>특별강습신청</p>
+                    </div>
+                    <label for="checkbox">
+                        <input type="button" name="sport" value="종목선택">
+                        <input type="button" name="program" value="프로그램선택">
+                    </label>
+                    <div class="btn">구매</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- FOOT -->
+</body>
+
+</html>
